@@ -43,7 +43,7 @@ Available as github action. It can automatically generate a new image each day. 
       dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 ```
 
-[example with cron job](https://github.com/marcus1298/marcus1298/blob/master/.github/workflows/main.yml#L24-L29)
+[example with cron job](https://github.com/marcus1298/blob/master/.github/workflows/main.yml#L24-L29)
 
 If you are only interested in generating a svg, consider using this faster action: `uses: marcus1298/snk/svg-only@v2`
 
