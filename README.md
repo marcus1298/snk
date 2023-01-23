@@ -8,7 +8,7 @@
 
 Generates a snake game from a github user contributions graph
 
-![](https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg)
+![](https://github.com/marcus1298/snk/raw/output/github-contribution-grid-snake.svg)
 
 Pull a github user's contribution graph.
 Make it a snake Game, generate a snake path where the cells get eaten in an orderly fashion.
@@ -22,7 +22,7 @@ Available as github action. It can automatically generate a new image each day. 
 **github action**
 
 ```yaml
-- uses: Platane/snk@v2
+- uses: marcus1298/snk@v2
   with:
     # github user name to read the contribution graph from (**required**)
     # using action context var `github.repository_owner` or specified user
@@ -43,9 +43,9 @@ Available as github action. It can automatically generate a new image each day. 
       dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 ```
 
-[example with cron job](https://github.com/Platane/Platane/blob/master/.github/workflows/main.yml#L24-L29)
+[example with cron job](https://github.com/marcus1298/marcus1298/blob/master/.github/workflows/main.yml#L24-L29)
 
-If you are only interested in generating a svg, consider using this faster action: `uses: Platane/snk/svg-only@v2`
+If you are only interested in generating a svg, consider using this faster action: `uses: marcus1298/snk/svg-only@v2`
 
 **dark mode**
 
@@ -61,7 +61,7 @@ For **dark mode** support on github, use this [special syntax](https://docs.gith
 
 **interactive demo**
 
-<a href="https://platane.github.io/snk">
+<a href="https://marcus1298.github.io/snk">
   <img height="300px" src="https://user-images.githubusercontent.com/1659820/121798244-7c86d700-cc25-11eb-8c1c-b8e65556ac0d.gif" ></img>
 </a>
 
